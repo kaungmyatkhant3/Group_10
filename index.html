@@ -1,22 +1,62 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My GitHub Project</title>
+  <title>MIBA College Team Project</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Software Engineering Project</h1>
+    <p>College Students at MIBA COLLEGE, Yangon Campus</p>
+  </header>
+
   <nav>
-    <a href="#">Home</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+    <a href="#about">About</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
   </nav>
 
-  <h1>Welcome to My GitHub Project</h1>
-  <p>This is a simple starter template with HTML, CSS, and JavaScript.</p>
-  
-  <button id="themeToggle">Toggle Dark Mode</button>
+  <section id="about">
+    <h2>About Our Project</h2>
+    <p>This project showcases our passion for technology and software engineering. 
+       We are dedicated to building innovative solutions and learning together.</p>
+  </section>
+
+  <section id="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-container">
+      <div class="team-member">
+        <h3>Kyaw Khant Zin</h3>
+        <p>Passion: Network Engineer</p>
+        <p>College Student at MIBA COLLEGE, Yangon Campus</p>
+      </div>
+      <div class="team-member">
+        <h3>Kaung Myat Khant</h3>
+        <p>Passion: Security Analyst</p>
+        <p>College Student at MIBA COLLEGE, Yangon Campus</p>
+      </div>
+      <div class="team-member">
+        <h3>Htet Aung Lin</h3>
+        <p>Passion: Developer</p>
+        <p>College Student at MIBA COLLEGE, Yangon Campus</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 MIBA College Team Project</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
